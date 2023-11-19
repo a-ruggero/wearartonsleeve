@@ -1,0 +1,195 @@
+/*LIGHT AND DARK THEME*/
+
+.theme-light {
+    --color-primary: #3D52D5;
+    --color-secondary: #B4C5E4;
+    --color-accent: #FBFFF1;
+    --font-color: #000000;
+    --link-color: #000000;
+    --font-color-button: --font-color;
+    --font-family: 'Times New Roman', Georgia, serif;
+}
+.theme-dark {
+    --color-primary: #000000;
+    --color-secondary: #243133;
+    --color-accent: #ffffE4;
+    --font-color: #ffffE4;
+    --link-color: #B4C5E4;
+    --font-color-button: #000000;
+    --font-family: 'Times New Roman', Georgia, serif;
+}
+
+/*STYLE*/
+
+html, body {
+    background-color: var(--color-primary);
+    font-family: var(--font-family);
+    font-size: 12;
+    color: var(--font-color);
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
+
+header {
+    background: var(--color-secondary);
+}
+
+/* TEXT */
+
+h1, h2, h3 {
+    text-align: center;
+    font: var(--font-color);
+    /* font-style: normal; */
+}
+
+h1 {
+    font-size: 30pt;
+}
+
+h2 {
+    font-size: 24pt;
+}
+
+h3 {
+    font-size: 18pt;
+}
+
+p {
+	background: var(--color-secondary);
+	color: var(--font-color);
+    font-weight: normal;
+}
+
+/*LINKS AND BUTTONS*/
+
+a {
+    color: var(--link-color);
+}
+
+button {
+	background: var(--color-accent);
+    color: var(--font-color-button);
+    font-weight: bold;
+    font-style: normal;
+}
+
+.display-inline li {
+    display : inline;
+}
+
+.list-none-type {
+    list-style-type: none;
+}
+
+/* NAVBAR */
+
+#menu-nav {
+    background-color: var(--color-secondary);
+}
+
+#menu-navbar {
+    background-color: var(--color-secondary);
+    margin-right: auto;
+    margin-left: auto;
+}
+.nav-item {
+    background-color: var(--color-accent);
+}
+  
+ 
+/* POST */
+
+#art-showcase {
+    background-color: var(--color-secondary);
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    list-style-type: none;
+}
+
+.img-post {
+    max-height: 40%;
+    max-width: 40%;
+}
+
+#usercontainerpost {
+    float: left;
+    margin-left: 30%;
+    margin-bottom: 2%;
+}
+
+#timestampcontainerpost {
+    float: right;
+    margin-right: 30%;
+    margin-bottom: 2%;
+}
+
+#comments-showcase {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 10%;
+    margin-top: 3%;
+}
+
+.no-pointed-ul {
+    list-style-type: none;
+}
+
+.post-details-artwork {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.emoji-hashtag-showcase {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 2%;
+}
+
+/* PROFILE */
+
+#username-bio-container {
+    background-color: var(--color-secondary);
+}
+
+/*
+ * MULTER
+ */
+
+ .containerAddArtwork {
+    max-width: 500px;
+    margin: 60px auto;
+}
+.containerAddArtwork h1 {
+    text-align: center;
+    color: var(--color-secondary);
+}
+form.addArtwork {
+    background-color: var(--color-secondary);
+    padding: 30px;
+}
+form.addArtwork label {
+    display: block;
+    margin-bottom: 10px;
+}
+form.addArtwork input {
+    padding: 12px 20px;
+    width: 100%;
+    border: 1px solid var(--color-secondary);
+}
+form.addArtwork textarea {
+    padding: 12px 20px;
+    width: 100%;
+    border: 1px solid var(--color-secondary);
+}
+div.artists {
+    margin-top: 5px;
+}
+div.artists button {
+    margin: 3px 3px 3px 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 10px;
+}
