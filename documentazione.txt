@@ -57,6 +57,7 @@ Utenti:
 - narses@prova.com : prova3
 - alex@prova.com : prova
 - alex03@prova.com : prova
+- kai@prova.com : _kai_
 
 Utenti Artisti:
 - bingai@prova.com : bingai
