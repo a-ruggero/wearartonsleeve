@@ -45,7 +45,7 @@ The registration form requires data that will be visible on your profile page:
 - Password of at least 5 characters to be repeated twice
 
 LOGIN
-For login you need email and password with which you registered on the site. Once done, you will see your logged-in user's profile page and the form for creating a new post, containing a new work of art with its details.
+For login you need an email and a password with which you registered on the site. Once done, you will see your logged-in user's profile page and the form for creating a new post, containing a new work of art with its details.
 
 Credentials for test accounts:
 
