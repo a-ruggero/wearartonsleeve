@@ -21,7 +21,6 @@
 - [Login (Italiano)](#login-italiano)
 - [Credenziali degli Account di Prova (Italiano)](#credenziali-degli-account-di-prova-italiano)
 - [Maggiori Dettagli Tecnici (Italiano)](#maggiori-dettagli-tecnici-italiano)
-- [Planned Improvements](#planned-improvements)
 
 ## Introduction
 
@@ -157,15 +156,3 @@ Per generare le pagine del social, sono utilizzate varie classi che estendono Pa
 Altre classi utili, sempre dalla parte del client, sono UsefulFunctions, che contiene un insieme di funzioni utili come una generalizzazione della fetch o per il login/logout, InitRouter per inizializzare page.js e AddOnClickEvent che aggiunge gli eventi ai bottoni nella barra del menu.
 
 Il Database contiene utenti e post di prova con cui testare il sito web.
-
-## Planned Improvements
-- Controllare hashtag in addartwork
-- Testare upload artwork e update/delete utente con postman
-- aggiungere alert block dove necessario
-- finire update art
-- finire css
-- Revisione codice (togliere name dei tag e classi inutili)
-- Finire insert coi commenti (trerisposte)
-- aggiungere controlli file multer
-- per operation in fetchFunction: function isFunction(functionToCheck) { return typeof functionToCheck === 'function';}
-- ottimizzare fetch (fare in modo che fetchfunction e uploadfetchfunction rimangano separate ma chiamino la stessa funzione nella parte comune)
