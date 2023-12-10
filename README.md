@@ -21,7 +21,10 @@
 - [Login (Italiano)](#login-italiano)
 - [Credenziali degli Account di Prova (Italiano)](#credenziali-degli-account-di-prova-italiano)
 - [Maggiori Dettagli Tecnici (Italiano)](#maggiori-dettagli-tecnici-italiano)
+<<<<<<< HEAD
 - [Planned Improvements](#planned-improvements)
+=======
+>>>>>>> 1d638c39ee274e7099ab3e7700b92329a1ef6727
 
 ## Introduction
 
@@ -156,6 +159,7 @@ Per il login sono necessarie l’email e la password con cui ci si è iscritti a
 Per generare le pagine del social, sono utilizzate varie classi che estendono PageManager.
 Altre classi utili, sempre dalla parte del client, sono UsefulFunctions, che contiene un insieme di funzioni utili come una generalizzazione della fetch o per il login/logout, InitRouter per inizializzare page.js e AddOnClickEvent che aggiunge gli eventi ai bottoni nella barra del menu.
 
+<<<<<<< HEAD
 Il Database contiene utenti e post di prova con cui testare il sito web.
 
 ## Planned Improvements
@@ -169,3 +173,6 @@ Il Database contiene utenti e post di prova con cui testare il sito web.
 - aggiungere controlli file multer
 - per operation in fetchFunction: function isFunction(functionToCheck) { return typeof functionToCheck === 'function';}
 - ottimizzare fetch (fare in modo che fetchfunction e uploadfetchfunction rimangano separate ma chiamino la stessa funzione nella parte comune)
+=======
+Il Database contiene utenti e post di prova con cui testare il sito web.
+>>>>>>> 1d638c39ee274e7099ab3e7700b92329a1ef6727
