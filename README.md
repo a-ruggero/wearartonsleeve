@@ -77,7 +77,7 @@ Use email and password for login. Afterward, you can access your profile page an
 - kai@prova.com : _kai_
 
 **User Artists:**
-- bingai@prova.com : bingai
+- alexartist@prova.com : alexartist
 
 ## More Technical Details (English)
 - Direct access to the server leads to the homepage.
@@ -146,7 +146,7 @@ Per il login sono necessarie l’email e la password con cui ci si è iscritti a
 - kai@prova.com : _kai_
 
 **Utenti Artisti:**
-- bingai@prova.com : bingai
+- alexartist@prova.com : alexartist
 
 ## Maggiori Dettagli Tecnici (Italiano)
 - Accedendo al server, si viene direttamente portati alla home.
